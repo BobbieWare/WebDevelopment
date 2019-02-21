@@ -1,11 +1,4 @@
-ef97738d241bfed1043f0b4ccf1703c46bca9389 
-
-
-this is key for settings sync
-
-
-
-d5bcfa23a8f684b055296d1b06a64d00
+aeb27a7d48b10d4b280c365c5d4969f1
 
 
 this is the gist id
