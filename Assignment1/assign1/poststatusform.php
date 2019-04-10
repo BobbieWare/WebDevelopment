@@ -10,9 +10,9 @@
             <h1 class="heading">Status Posting System</h1>
             <div class="content">
                 <form name="postStatus" action="poststatusprocess.php" method="POST">
-                    <label>Status Code (required): </label><input type="text" name="code" value="S0000" size="5" /><br>
+                    <label>Status Code (required): </label><input type="text" name="code" value="S0000" size="5" required/><br>
 
-                    <label>Status (required): </label><input type="text" name="text" value="" /><br>
+                    <label>Status (required): </label><input type="text" name="text" value="" required/><br>
 
                     Share: <label><input type="radio" name="share" value="Public" checked="checked"/> Public</label>
                     <label><input type="radio" name="share" value="Friends" /> Friends</label>
