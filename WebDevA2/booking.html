@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CabsOnline</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="xhr.js"></script>
+        <script type="text/javascript" src="validationAndSendToServer.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <h1>CabsOnline</h1>
+            </div>
+
+            <div class="content">
+                <h1>Booking Form</h1>
+                <form>
+                    <label>Customer Name:  <input type="text" name="nameField"> </label><br>
+                    <label>Contact Phone: <input type="text" name="phoneField"> </label><br>
+                    <label>Pickup Address</label><br>
+                    <label>Unit number (if applicable): <input type="text" name="unitNumberField"> </label><br>
+                    <label>Street Address: <input type="text" name="streetField"> </label><br>
+                    <label>Destination Suburb: <input type="text" name="destinationField"> </label><br>
+                    
+                    <label>Date: <input type="date" name="dateField"> </label><br>
+                    <label>Time: <input type="time" name="timeField"> </label><br>
+
+                    <input name="submit" type = "button" onClick = "getData('addToServer.php', nameField.value, phoneField.value, unitNumberField.value, streetField.value, destinationField.value, dateField.value, timeField.value)" value = "Place Booking">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
