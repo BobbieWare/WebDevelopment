@@ -36,7 +36,6 @@ if (!$connection) {
     
 // sleep for 5 seconds to slow server response down
     sleep(5);
-// write back the password concatenated to end of the name
     
     
     echo ("Thank you! Your booking reference  number  is  " . $bookingNumber . ".  You  will  be  picked  up  in  front  of  your  provided address  at  " . $time . "  on  " . $date . ".");
