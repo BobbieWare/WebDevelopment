@@ -1,0 +1,17 @@
+this function is used to make the sql table
+
+
+
+CREATE TABLE `requests` (
+ `BOOKING_NUMBER` bigint(20) NOT NULL,
+ `CUSTOMER_NAME` varchar(40) NOT NULL,
+ `CUSTOMER_PHONE` bigint(20) NOT NULL,
+ `UNIT_NUMBER` varchar(10) DEFAULT NULL,
+ `STREET_ADDRESS` varchar(50) NOT NULL,
+ `DESTINATION_SUBURB` varchar(20) NOT NULL,
+ `PICKUP_DATE` date NOT NULL,
+ `PICKUP_TIME` time NOT NULL,
+ `STATUS` varchar(20) DEFAULT NULL,
+ `DATETIME_BOOKED` datetime NOT NULL,
+ PRIMARY KEY (`BOOKING_NUMBER`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
