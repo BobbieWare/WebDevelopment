@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="Objects.js"></script>
+    </head>
+    <body>
+        <script>
+            var db = new DbHolder();
+            var entry1 = new DbEntry("Bob", "Bob@Bob.com");
+            var entry2 = new DbEntry("Thing2", "thing2@test.com");
+            var entry3 = new DbEntry("Yes", "yes@no.com");
+    
+            db.addEntry(entry1);
+            db.addEntry(entry2);
+            db.addEntry(entry3);
+            
+            db.printDB(document);
+
+        </script>
+    </body>
+</html>

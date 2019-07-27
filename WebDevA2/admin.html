@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Admin</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="xhr.js"></script>
+        <script type="text/javascript" src="displayRequests.js"></script>
+        <script type="text/javascript" src="assignOnRequest.js.js"></script>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="content" id="displayAll">
+
+                <input value="Get all Requests" type="button" onClick = "displayAll()"/>
+
+            </div>
+
+            <div class="content">
+
+
+
+            </div>
+
+            <div class="content" hidden id="resultsDiv">
+
+                <table border="1" id="table">
+                    <tr>
+                        <td>
+                            Booking Ref
+                        </td>
+                        <td>
+                            Customer Name
+                        </td>
+                        <td>
+                            Customer Phone
+                        </td>
+                        <td>
+                            Date and time booked
+                        </td>
+                        <td>
+                            Address
+                        </td>
+                        <td>
+                            Destination Suburb
+                        </td>
+                        <td>
+                            Pickup Date
+                        </td>
+                        <td>
+                            Pickup Time
+                        </td>
+                        <td>
+                            Status
+                        </td> 
+                        <td>
+                            Button
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+    </body>
+</html>
